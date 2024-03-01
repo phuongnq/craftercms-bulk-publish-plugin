@@ -17,6 +17,7 @@ const globals = {
   rxjs: 'craftercms.libs.rxjs',
   'rxjs/operators': 'craftercms.libs.rxjs',
   // jsx runtime part of Studio's runtime starting 4.1.2
+  // comment this line to support 4.0.x
   'react/jsx-runtime': 'craftercms.libs?.reactJsxRuntime',
   '@emotion/css/create-instance': 'craftercms.libs.createEmotion',
   'react-dom': 'craftercms.libs.ReactDOM',

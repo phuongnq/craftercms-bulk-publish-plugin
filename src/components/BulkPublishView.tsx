@@ -30,7 +30,8 @@ import {
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import { PublishOnDemandForm } from '@craftercms/studio-ui';
 
-// for 4.1.x since `@craftercms/studio-ui/com` is not a valid component
+// for 4.1.x since `@craftercms/studio-ui/PathSelector` is not a valid component
+// @ts-ignore
 const PathSelector = craftercms.components.SiteSearchPathSelector;
 
 const messages = defineMessages({
