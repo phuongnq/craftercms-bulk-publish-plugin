@@ -1,0 +1,8 @@
+{
+  "org.craftercms.bulkpublish.sitesView.noContentTypesMessage": "There are no content types",
+  "org.craftercms.bulkpublish.sitesView.numOfContentTypesMessage": "There {total, plural, one {is one content type} other {are {total} content types}}",
+  "org.craftercms.bulkpublish.sitesView.numOfProjectsMessage": "You have {total, plural, one {one project} other {{total} projects}}",
+  "org.craftercms.bulkpublish.vanilla.exampleTranslations": "Hello. This text is internationalized.",
+  "org.craftercms.bulkpublish.vanilla.DialogTitle": "Bulk Publish Assets",
+  "org.craftercms.bulkpublish.vanilla.bulkPublishTitle": "Bulk Publish Assets"
+}

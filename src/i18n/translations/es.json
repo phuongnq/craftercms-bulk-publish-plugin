@@ -1,0 +1,8 @@
+{
+  "org.craftercms.bulkpublish.sitesView.noContentTypesMessage": "No hay tipos de contenido",
+  "org.craftercms.bulkpublish.sitesView.numOfContentTypesMessage": "Hay {total, plural, one {un tipo de contenido} other {{total} tipos de contenido}}",
+  "org.craftercms.bulkpublish.sitesView.numOfProjectsMessage": "Hay {total, plural, one {un proyecto} other {{total} proyectos}}",
+  "org.craftercms.bulkpublish.vanilla.exampleTranslations": "Hola. Este text esta traducido.",
+  "org.craftercms.bulkpublish.vanilla.DialogTitle": "Recursos de publicación masiva",
+  "org.craftercms.bulkpublish.vanilla.bulkPublishTitle": "Recursos de publicación masiva"
+}

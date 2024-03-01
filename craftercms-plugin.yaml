@@ -1,0 +1,86 @@
+# This file describes a plugin for use in CrafterCMS
+# The version of the format for this file
+descriptorVersion: 2
+
+# Describe the plugin
+plugin:
+  type: site
+  id: org.craftercms.bulkpublish
+  name: Bulk Publish Assets Plugins
+  tags:
+    - authoring
+    - tools
+  version:
+    major: 1
+    minor: 0
+    patch: 0
+  description: A plugin to perform pulk publish assets
+  documentation: "https://raw.githubusercontent.com/phuongnq/craftercms-bulk-publish-plugin/main/README.md"
+  website:
+    name: Bulk Publish Assets Plugins
+    url: https://github.com/craftercms/craftercms-bulk-publish-plugin
+  media:
+    screenshots:
+      - title: Bulk Publish Assets
+        description: CrafterCMS Bulk Publish Assets
+        url: "https://raw.githubusercontent.com/phuongnq/craftercms-bulk-publish-pluginn/main/.crafter/logo.png"
+  developer:
+    company:
+      name: CrafterCMS
+      email: info@craftercms.com
+      url: https://craftercms.com
+  build:
+    id: aa9739a4468d4b91a756eeeed8a8144b
+    date: 2024-03-01T00:00:00Z
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  crafterCmsVersions:
+    - major: 4
+      minor: 0
+      patch: 7
+    - major: 4
+      minor: 1
+      patch: 2
+    - major: 4
+      minor: 1
+      patch: 3
+    - major: 4
+      minor: 1
+      patch: 4
+    - major: 4
+      minor: 2
+      patch: 0
+    - major: 4
+      minor: 2
+      patch: 1
+    - major: 4
+      minor: 2
+      patch: 2
+  crafterCmsEditions:
+    - community
+    - enterprise
+  installation:
+    - type: preview-app
+      parentXpath: //widget[@id='craftercms.components.ToolsPanel']
+      elementXpath: //widget[@id='org.craftercms.bulkpublish.bulkPublishPanelButton']
+      element:
+        name: configuration
+        children:
+          - name: widgets
+            children:
+              - name: widget
+                attributes:
+                  - name: id
+                    value: org.craftercms.bulkpublish.bulkPublishPanelButton
+                children:
+                  - name: plugin
+                    attributes:
+                      - name: id
+                        value: org.craftercms
+                      - name: type
+                        value: bulkpublish
+                      - name: name
+                        value: library
+                      - name: file
+                        value: index.js
