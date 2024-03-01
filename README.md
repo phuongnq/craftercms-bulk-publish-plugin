@@ -20,13 +20,7 @@ Reviewing your site's `ui.xml` you'll find the widgets below. Review the `instal
 ```xml
 <widget id="org.craftercms.bulkpublish.bulkPublishPanelButton">
   <plugin id="org.craftercms"
-          type="examples"
-          name="library"
-          file="index.js"/>
-</widget>
-<widget id="org.craftercms.bulkpublish.vanilla">
-  <plugin id="org.craftercms"
-          type="examples"
+          type="bulkpublish"
           name="library"
           file="index.js"/>
 </widget>
